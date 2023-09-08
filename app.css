@@ -19,3 +19,43 @@ color: var(--color1);
 font-weight: bold;
 font-size: 1.5rem;
 }
+
+section#banner-section h4{
+    color: var(--color2);
+    font-weight: bold;
+}
+
+section#services .circle{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: var(--white);
+    background-color: var(--color3);
+    margin: auto;
+    border-radius: 50%;
+}
+
+section#staff img{
+    border: 10px solid var(--color4);
+    border-radius: 50%;
+    width: 50% !important;
+}
+
+section#staff i{
+    background-color: #6C757D;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+section#contact{
+    background: url(./img/map.jpeg);
+}
+
+section#contact p{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
